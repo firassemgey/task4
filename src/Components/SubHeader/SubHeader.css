@@ -1,0 +1,64 @@
+.fs-container{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.fs-container .Header{
+    align-items: center;
+    font-size: 20px;
+    color: #f35525;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0 22px;
+}
+.fs-container .Header .first {
+    display: flex;
+    float: left;
+}
+.fs-container .Header .first ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+.fs-container .Header .first li {
+    font-size: 14px;
+    color: #7a7a7a;;
+    padding-right: 25px;
+    margin-right: 25px;
+    border-right: 1px solid #eee;
+}
+
+.fs-container .Header .second {
+    display: flex;
+}
+.fs-container .Header .second ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    
+}
+.fs-container .Header .second ul a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s;
+}
+.fs-container .Header .second ul a:hover {
+    background-color: #f35525;
+        
+    }
+
+@media screen and (max-width: 990px){
+    .fs-container{
+        display: none;
+    }
+
+}

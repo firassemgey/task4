@@ -1,0 +1,31 @@
+.carousel-caption-F{
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    color: #fff;
+    margin-top: 0px;
+}
+.carousel-caption-F h2 {
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 72px;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.carousel-caption-F span.category-F {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.carousel-caption-F span.category-F em {
+    font-style: normal;
+    color: #f35525;
+}
